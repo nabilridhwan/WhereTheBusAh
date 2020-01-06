@@ -4,6 +4,9 @@ The better WTBA built using Flutter.
 
 ## Downloads
 Binary files for this app can be obtained through the "releases" section of this repository or just head [here](https://github.com/nabilridhwan/WhereTheBusAh/releases).
+```
+You may be prompted by Play Protect that it does not recognise the app's developer, Click on Install Anyway as I have not yet transition to Google Play for releasing this app.
+```
 
 ## Changelog
 As part of my effort to use `Notion` as part of my development process. The changelog for this app can be found [here](https://www.notion.so/realnabil/Changelog-4f477010a0fc4c9cbd77436b4d378d8a)
