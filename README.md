@@ -1,16 +1,12 @@
-# wherethebusahrebuild
+# WhereTheBusAh
 
-A new Flutter project.
+The better WTBA built using Flutter.
+
+## Downloads
+Binary files for this app can be obtained through the "releases" section of this repository or just head [here](https://github.com/nabilridhwan/WhereTheBusAh/releases).
+
+## Changelog
+As part of my effort to use `Notion` as part of my development process. The changelog for this app can be found [here](https://www.notion.so/realnabil/Changelog-4f477010a0fc4c9cbd77436b4d378d8a)
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For debugging or developing purposes and to make the app locally, make sure that you have the essentials dependencies installed as defined in the `pubspec.yaml` file. Since this app leverages `LTA Datamall's` REST API, you would need to obtain your own API Key from `https://www.mytransport.sg/content/mytransport/home/dataMall.html`. After obtaining the API Key or rather, AccountKey, Replace `"KEY_HERE"` in HomePage.dart to your AccountKey or API Key enclosed in `""` and build the app or debug the app by running `flutter run` or `flutter run --release`.
