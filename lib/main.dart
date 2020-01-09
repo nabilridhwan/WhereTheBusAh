@@ -8,12 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: HomePage(null),
-      theme: ThemeData.dark().copyWith(
-        colorScheme: ColorScheme.fromSwatch(
-            accentColor: Colors.red, primaryColorDark: Colors.red),
-        primaryColor: Colors.red,
-        accentColor: Colors.red
-      ),
+      theme: ThemeData(fontFamily: 'FiraCode'),
     );
   }
 }
